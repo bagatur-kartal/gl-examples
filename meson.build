@@ -1,4 +1,4 @@
-project('gl-examples', 'c')
+project('gl-examples', 'cpp')
 
 cmake = import('cmake')
 glsdk_proj = cmake.subproject('glsdk')
@@ -17,7 +17,7 @@ deps = [
   ]
 
 srcs = [
-  'src/main.c'
+  'src/main.cpp'
   ]
 
 executable('gl-examples', sources: srcs, dependencies: deps)
