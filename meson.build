@@ -20,9 +20,10 @@ deps = [
   x11_dep
   ]
 
-srcs = [
-  'src/main.cpp'
-  ]
-
-executable('gl-examples', sources: srcs, dependencies: deps)
+executable('hello-triangle',
+  sources: [
+    'src/hello-triangle.cpp'
+    ],
+  dependencies: deps
+  )
 
