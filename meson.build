@@ -22,7 +22,21 @@ deps = [
 
 executable('hello-triangle',
   sources: [
-    'src/hello-triangle.cpp'
+    'src/01/hello-triangle.cpp'
+    ],
+  dependencies: deps
+  )
+
+executable('frag-pos',
+  sources: [
+    'src/02/frag-pos.cpp'
+    ],
+  dependencies: deps
+  )
+
+executable('vert-col',
+  sources: [
+    'src/02/vert-col.cpp'
     ],
   dependencies: deps
   )
