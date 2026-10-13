@@ -6,14 +6,18 @@ freeglut_dep = glsdk_proj.dependency('freeglut')
 glload_dep = glsdk_proj.dependency('glload')
 glimg_dep = glsdk_proj.dependency('glimg')
 glutil_dep = glsdk_proj.dependency('glutil')
+framework_dep = glsdk_proj.dependency('framework')
 gl_dep = dependency('gl')
+x11_dep = dependency('x11')
 
 deps = [
   freeglut_dep,
   glload_dep,
   glimg_dep,
   glutil_dep,
-  gl_dep
+  framework_dep,
+  gl_dep,
+  x11_dep
   ]
 
 srcs = [

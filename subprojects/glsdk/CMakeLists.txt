@@ -29,3 +29,7 @@ file(GLOB glutil_SRCS glutil/source/*.cpp)
 add_library(glutil STATIC ${glutil_SRCS})
 target_include_directories(glutil PUBLIC glutil/include glm)
 target_link_libraries(glutil PRIVATE glimg glload)
+
+## framework
+add_subdirectory(framework)
+
