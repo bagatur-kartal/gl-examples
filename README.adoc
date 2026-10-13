@@ -2,3 +2,6 @@
 
 Graphics programming examples with OpenGL.
 
+Reference: https://paroj.github.io/gltut[Learning Modern 3D Graphics
+Programming] by Jason L. McKesson
+
