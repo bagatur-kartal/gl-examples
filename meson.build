@@ -97,3 +97,10 @@ executable('aspect-ratio',
   dependencies: deps
   )
 
+executable('overlap-no-depth',
+  sources: [
+    'src/05/overlap-no-depth.cpp'
+    ],
+  dependencies: deps
+  )
+
