@@ -83,3 +83,10 @@ executable('shader-perspective',
   dependencies: deps
   )
 
+executable('matrix-perspective',
+  sources: [
+    'src/04/matrix-perspective.cpp'
+    ],
+  dependencies: deps
+  )
+
