@@ -111,3 +111,10 @@ executable('base-vert-overlap',
   dependencies: deps
   )
 
+executable('depth-buffer',
+  sources: [
+    'src/05/depth-buffer.cpp'
+    ],
+  dependencies: deps
+  )
+
