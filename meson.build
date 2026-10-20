@@ -41,3 +41,10 @@ executable('vert-col',
   dependencies: deps
   )
 
+executable('cpu-pos-offset',
+  sources: [
+    'src/03/cpu-pos-offset.cpp'
+    ],
+  dependencies: deps
+  )
+
