@@ -69,3 +69,10 @@ executable('frag-change-col',
   dependencies: deps
   )
 
+executable('ortho-cube',
+  sources: [
+    'src/04/ortho-cube.cpp'
+    ],
+  dependencies: deps
+  )
+
