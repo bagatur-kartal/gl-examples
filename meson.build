@@ -62,3 +62,10 @@ executable('vert-calc-offset',
   dependencies: deps
   )
 
+executable('frag-change-col',
+  sources: [
+    'src/03/frag-change-col.cpp'
+    ],
+  dependencies: deps
+  )
+
