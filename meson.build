@@ -55,3 +55,10 @@ executable('vert-pos-offset',
   dependencies: deps
   )
 
+executable('vert-calc-offset',
+  sources: [
+    'src/03/vert-calc-offset.cpp'
+    ],
+  dependencies: deps
+  )
+
