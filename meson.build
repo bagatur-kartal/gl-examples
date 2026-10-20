@@ -90,3 +90,10 @@ executable('matrix-perspective',
   dependencies: deps
   )
 
+executable('aspect-ratio',
+  sources: [
+    'src/04/aspect-ratio.cpp'
+    ],
+  dependencies: deps
+  )
+
