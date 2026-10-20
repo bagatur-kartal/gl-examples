@@ -48,3 +48,10 @@ executable('cpu-pos-offset',
   dependencies: deps
   )
 
+executable('vert-pos-offset',
+  sources: [
+    'src/03/vert-pos-offset.cpp'
+    ],
+  dependencies: deps
+  )
+
