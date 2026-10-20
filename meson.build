@@ -76,3 +76,10 @@ executable('ortho-cube',
   dependencies: deps
   )
 
+executable('shader-perspective',
+  sources: [
+    'src/04/shader-perspective.cpp'
+    ],
+  dependencies: deps
+  )
+
