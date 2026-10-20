@@ -104,3 +104,10 @@ executable('overlap-no-depth',
   dependencies: deps
   )
 
+executable('base-vert-overlap',
+  sources: [
+    'src/05/base-vert-overlap.cpp'
+    ],
+  dependencies: deps
+  )
+
