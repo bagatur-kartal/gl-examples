@@ -160,3 +160,10 @@ executable('rotation',
   dependencies: deps
   )
 
+executable('hierarchy',
+  sources: [
+    'src/06/hierarchy.cpp'
+    ],
+  dependencies: deps
+  )
+
