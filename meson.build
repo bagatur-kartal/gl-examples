@@ -153,3 +153,10 @@ executable('scale',
   dependencies: deps
   )
 
+executable('rotation',
+  sources: [
+    'src/06/rotation.cpp'
+    ],
+  dependencies: deps
+  )
+
