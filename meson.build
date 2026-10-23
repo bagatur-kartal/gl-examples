@@ -118,3 +118,10 @@ executable('depth-buffer',
   dependencies: deps
   )
 
+executable('vert-clip',
+  sources: [
+    'src/05/vert-clip.cpp'
+    ],
+  dependencies: deps
+  )
+
