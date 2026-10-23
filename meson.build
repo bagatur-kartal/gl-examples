@@ -167,3 +167,10 @@ executable('hierarchy',
   dependencies: deps
   )
 
+executable('world',
+  sources: [
+    'src/07/world.cpp'
+    ],
+  dependencies: deps
+  )
+
