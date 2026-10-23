@@ -139,3 +139,10 @@ executable('depth-fight',
   dependencies: deps
   )
 
+executable('translation',
+  sources: [
+    'src/06/translation.cpp'
+    ],
+  dependencies: deps
+  )
+
