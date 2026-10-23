@@ -146,3 +146,10 @@ executable('translation',
   dependencies: deps
   )
 
+executable('scale',
+  sources: [
+    'src/06/scale.cpp'
+    ],
+  dependencies: deps
+  )
+
