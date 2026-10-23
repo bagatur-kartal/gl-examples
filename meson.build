@@ -174,3 +174,10 @@ executable('world',
   dependencies: deps
   )
 
+executable('world-ubo',
+  sources: [
+    'src/07/world-ubo.cpp'
+    ],
+  dependencies: deps
+  )
+
