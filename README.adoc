@@ -2,6 +2,12 @@
 
 Graphics programming examples with OpenGL.
 
+image::img/tri.png[]
+image::img/ortho.png[]
+image::img/depth.png[]
+image::img/rot.png[]
+image::img/world.png[]
+
 Reference: https://paroj.github.io/gltut[Learning Modern 3D Graphics
 Programming] by Jason L. McKesson
 
