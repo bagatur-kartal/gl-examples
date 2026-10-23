@@ -132,3 +132,10 @@ executable('depth-clamp',
   dependencies: deps
   )
 
+executable('depth-fight',
+  sources: [
+    'src/05/depth-fight.cpp'
+    ],
+  dependencies: deps
+  )
+
