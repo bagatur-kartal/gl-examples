@@ -125,3 +125,10 @@ executable('vert-clip',
   dependencies: deps
   )
 
+executable('depth-clamp',
+  sources: [
+    'src/05/depth-clamp.cpp'
+    ],
+  dependencies: deps
+  )
+
